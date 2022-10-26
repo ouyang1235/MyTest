@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="152e4b11-1a1b-4261-bcea-5a78a8702891" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\ouyang\IntelliJ IDEA 2020.2.1\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1xI76q9FMuTP20CSOOvySjQWJXs" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lottery-Test" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="leetcode.id" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ouyang.netty.nio" />
+      <recent name="com.ouyang" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MyClient">
+    <configuration name="GroupTalkClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ouyang.netty.nio.GroupTalkClient" />
+      <module name="myTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ouyang.netty.nio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupTalkClient2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ouyang.netty.nio.GroupTalkClient2" />
+      <module name="myTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ouyang.netty.nio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupTalkServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ouyang.netty.nio.GroupTalkServer" />
+      <module name="myTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ouyang.netty.nio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ouyang.netty.primary.MyClient" />
+      <module name="myTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ouyang.netty.primary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ouyang.netty.primary.MyServer" />
+      <module name="myTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ouyang.netty.primary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyClient" />
+        <item itemvalue="Application.MyServer" />
+        <item itemvalue="Application.GroupTalkClient2" />
+        <item itemvalue="Application.GroupTalkClient" />
+        <item itemvalue="Application.GroupTalkServer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="152e4b11-1a1b-4261-bcea-5a78a8702891" name="Default Changelist" comment="" />
+      <created>1630030576907</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1630030576907</updated>
+      <workItem from="1630030578060" duration="865000" />
+      <workItem from="1630054927724" duration="708000" />
+      <workItem from="1630131251429" duration="1645000" />
+      <workItem from="1630144305825" duration="619000" />
+      <workItem from="1630322508477" duration="2507000" />
+      <workItem from="1630375573691" duration="1205000" />
+      <workItem from="1630550074782" duration="9129000" />
+      <workItem from="1630633402735" duration="1195000" />
+      <workItem from="1630894574114" duration="1290000" />
+      <workItem from="1630979340840" duration="9000" />
+      <workItem from="1631006689657" duration="121000" />
+      <workItem from="1633941853898" duration="2408000" />
+      <workItem from="1634004053702" duration="263000" />
+      <workItem from="1634093193443" duration="1200000" />
+      <workItem from="1634102262290" duration="6590000" />
+      <workItem from="1641354573635" duration="1892000" />
+      <workItem from="1641434356165" duration="2871000" />
+      <workItem from="1643160047601" duration="2706000" />
+      <workItem from="1643265588963" duration="1425000" />
+      <workItem from="1643334937922" duration="5142000" />
+      <workItem from="1644197963972" duration="3576000" />
+      <workItem from="1644203663815" duration="5911000" />
+      <workItem from="1644284094207" duration="11061000" />
+      <workItem from="1644370058375" duration="6834000" />
+      <workItem from="1644457328385" duration="2141000" />
+      <workItem from="1644461320723" duration="1320000" />
+      <workItem from="1644543497645" duration="4708000" />
+      <workItem from="1644819394202" duration="810000" />
+      <workItem from="1644889188291" duration="1195000" />
+      <workItem from="1644975808291" duration="1189000" />
+      <workItem from="1645062270150" duration="7506000" />
+      <workItem from="1645150123873" duration="3899000" />
+      <workItem from="1645407916270" duration="3486000" />
+      <workItem from="1645493722242" duration="4766000" />
+      <workItem from="1645580857083" duration="4212000" />
+      <workItem from="1645665405254" duration="3036000" />
+      <workItem from="1645752033900" duration="2253000" />
+      <workItem from="1646012291541" duration="611000" />
+      <workItem from="1646098323503" duration="972000" />
+      <workItem from="1646184471283" duration="3219000" />
+      <workItem from="1646271152987" duration="1810000" />
+      <workItem from="1646357690822" duration="1188000" />
+      <workItem from="1646617179152" duration="1407000" />
+      <workItem from="1646703268847" duration="13306000" />
+      <workItem from="1646789527892" duration="1188000" />
+      <workItem from="1646792466623" duration="1187000" />
+      <workItem from="1646875440820" duration="625000" />
+      <workItem from="1647308151020" duration="2150000" />
+      <workItem from="1647394955134" duration="1190000" />
+      <workItem from="1647481527071" duration="778000" />
+      <workItem from="1647826595150" duration="769000" />
+      <workItem from="1647913117194" duration="1190000" />
+      <workItem from="1648000892252" duration="2804000" />
+      <workItem from="1648087826383" duration="949000" />
+      <workItem from="1648172137317" duration="9641000" />
+      <workItem from="1649209114102" duration="239000" />
+      <workItem from="1649209403065" duration="661000" />
+      <workItem from="1649296838418" duration="1183000" />
+      <workItem from="1649727841507" duration="1172000" />
+      <workItem from="1649815379446" duration="752000" />
+      <workItem from="1657596392792" duration="1827000" />
+      <workItem from="1657676668325" duration="976000" />
+      <workItem from="1657763887856" duration="576000" />
+      <workItem from="1657765337060" duration="592000" />
+      <workItem from="1658285115758" duration="2421000" />
+      <workItem from="1658372273590" duration="6311000" />
+      <workItem from="1658454889794" duration="4093000" />
+      <workItem from="1658715796596" duration="1279000" />
+      <workItem from="1658741248245" duration="1437000" />
+      <workItem from="1658800218068" duration="1771000" />
+      <workItem from="1658886494389" duration="694000" />
+      <workItem from="1658973824102" duration="1320000" />
+      <workItem from="1659058950562" duration="1183000" />
+      <workItem from="1665383803417" duration="10823000" />
+      <workItem from="1665454101637" duration="5898000" />
+      <workItem from="1665477624503" duration="3653000" />
+      <workItem from="1665629386776" duration="156000" />
+      <workItem from="1665643773962" duration="3678000" />
+      <workItem from="1665712609786" duration="601000" />
+      <workItem from="1665718296922" duration="9326000" />
+      <workItem from="1665970998221" duration="657000" />
+      <workItem from="1666058088362" duration="919000" />
+      <workItem from="1666144072355" duration="1950000" />
+      <workItem from="1666230913649" duration="760000" />
+      <workItem from="1666318413457" duration="9150000" />
+      <workItem from="1666576530861" duration="10007000" />
+      <workItem from="1666598213110" duration="4424000" />
+      <workItem from="1666663553029" duration="1056000" />
+      <workItem from="1666749378139" duration="7304000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1665460765370">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1665460765370" />
+    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1666773409852">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1666773409852" />
+    <state width="1493" height="271" key="GridCell.Tab.0.bottom" timestamp="1666774936638">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="271" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1666774936638" />
+    <state width="1877" height="347" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1658982208179" />
+    <state width="1493" height="271" key="GridCell.Tab.0.center" timestamp="1666774936638">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="271" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1666774936638" />
+    <state width="1877" height="347" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1658982208179" />
+    <state width="1493" height="271" key="GridCell.Tab.0.left" timestamp="1666774936638">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="271" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1666774936638" />
+    <state width="1877" height="347" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1658982208179" />
+    <state width="1493" height="271" key="GridCell.Tab.0.right" timestamp="1666774936638">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="271" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1666774936638" />
+    <state width="1877" height="347" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1658982208179" />
+    <state width="1493" height="271" key="GridCell.Tab.1.bottom" timestamp="1666774936639">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="271" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1666774936639" />
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1658982208640" />
+    <state width="1493" height="271" key="GridCell.Tab.1.center" timestamp="1666774936638">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="271" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1666774936638" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1658982208639" />
+    <state width="1493" height="271" key="GridCell.Tab.1.left" timestamp="1666774936638">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="271" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1666774936638" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1658982208639" />
+    <state width="1493" height="271" key="GridCell.Tab.1.right" timestamp="1666774936639">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="271" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1666774936639" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1658982208639" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1658285734124">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1658285734124" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ouyang/HelloWorldRule.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ouyang/HelloWorldRule.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ouyang/rpc/framework/AobingRpcFramework.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ouyang/rpc/framework/AobingRpcFramework.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ouyang/rpc/framework/AobingRpcFramework.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ouyang/rpc/framework/AobingRpcFramework.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ouyang/configuration/SessionConfig.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ouyang/Test.java</url>
+          <line>165</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ouyang/Father.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ouyang/Son.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ouyang/Son.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ouyang/Son.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ouyang/Son.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ouyang/Son.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ouyang/Son.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ouyang/Test.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ouyang/Test.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ouyang/netty/socket/SocketServer.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ouyang/netty/socket/SocketServer.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ouyang/netty/socket/SocketClient.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ouyang/netty/socket/SocketServer.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ouyang/netty/nio/SelectorTest.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ouyang/netty/primary/MyClientHandler.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ouyang/Son.java</url>
+          <line>24</line>
+          <properties field="a" class="com.ouyang.Son.Fu" />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ouyang/Son.java</url>
+          <line>36</line>
+          <properties field="a" class="com.ouyang.Son.Zi" />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ouyang/Son.java</url>
+          <line>25</line>
+          <properties field="FU_STATIC_A" class="com.ouyang.Son.Fu" />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ouyang/Son.java</url>
+          <line>42</line>
+          <properties field="FU_STATIC_A" class="com.ouyang.Son.Zi" />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/myTest$Test.ic" NAME="Test Coverage Results" MODIFIED="1645066857003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.ouyang.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/myTest$Son.ic" NAME="Son Coverage Results" MODIFIED="1658394902622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.ouyang.*</FILTER>
+    </SUITE>
+  </component>
+</project>
