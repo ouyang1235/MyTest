@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Profile("!dev")
-@Component
+//@Component
 public class OrderHandler extends AbstractHandler<Order>{
 
     private final HttpClient httpClient = HttpClient.create();

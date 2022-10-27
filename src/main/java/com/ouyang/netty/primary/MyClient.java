@@ -1,6 +1,10 @@
 package com.ouyang.netty.primary;
 
+import com.ouyang.netty.primary.util.SampleDecoder;
+import com.ouyang.netty.primary.util.SampleEncoder;
 import io.netty.bootstrap.Bootstrap;
+import io.netty.buffer.ByteBuf;
+import io.netty.buffer.Unpooled;
 import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
@@ -31,7 +35,8 @@ public class MyClient {
                                 .addLast(new LineBasedFrameDecoder(1024))
                                 .addLast(new StringDecoder(Charset.forName("GBK")))
                                 .addLast(new StringEncoder(Charset.forName("GBK")))
-                                .addLast(new MyClientHandler());
+                                .addLast(new MyClientHandler())
+                                .addLast(new MyClientOutHandler());
                     }
                 });
     }

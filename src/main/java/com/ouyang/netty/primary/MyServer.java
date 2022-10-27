@@ -1,5 +1,7 @@
 package com.ouyang.netty.primary;
 
+import com.ouyang.netty.primary.util.SampleDecoder;
+import com.ouyang.netty.primary.util.SampleEncoder;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;
@@ -9,6 +11,8 @@ import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
 import io.netty.handler.codec.LineBasedFrameDecoder;
+import io.netty.handler.codec.http.HttpRequestDecoder;
+import io.netty.handler.codec.http.HttpResponseEncoder;
 import io.netty.handler.codec.string.StringDecoder;
 import io.netty.handler.codec.string.StringEncoder;
 
@@ -17,8 +21,7 @@ import java.nio.charset.Charset;
 
 public class MyServer {
 
-    public static void main(String[] args) {
-
+    public void start(){
         NioEventLoopGroup bossGroup = new NioEventLoopGroup();
         NioEventLoopGroup workGroup = new NioEventLoopGroup();
         try{
@@ -30,9 +33,12 @@ public class MyServer {
                     .childHandler(new ChannelInitializer<SocketChannel>() {
                         @Override
                         protected void initChannel(SocketChannel channel) throws Exception {
-                            channel.pipeline().addLast(new LineBasedFrameDecoder(1024))
-                                    .addLast(new StringDecoder(Charset.forName("GBK")))
-                                    .addLast(new StringEncoder(Charset.forName("GBK")))
+                            channel.pipeline()
+//                                    .addLast(new LineBasedFrameDecoder(1024))
+//                                    .addLast(new StringDecoder(Charset.forName("GBK")))
+//                                    .addLast(new StringEncoder(Charset.forName("GBK")))
+                                    .addLast(new HttpResponseEncoder())
+                                    .addLast(new HttpRequestDecoder())
                                     .addLast(new MyServerHandler());
                         }
                     });
@@ -45,6 +51,9 @@ public class MyServer {
             bossGroup.shutdownGracefully();
             workGroup.shutdownGracefully();
         }
+    }
+
+    public static void main(String[] args) {
 
 
     }
