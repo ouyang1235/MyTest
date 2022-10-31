@@ -1,19 +1,18 @@
 package com.ouyang;
 
 
-import com.ouyang.netty.primary.MyServer;
+import com.ouyang.demo.SpringCOntext;
+import com.ouyang.demo.TestController;
 import org.apache.rocketmq.spring.core.RocketMQTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
-@RestController("/v1")
 public class TestApplication implements ApplicationRunner {
 
     public static void main(String[] args) {
@@ -23,13 +22,19 @@ public class TestApplication implements ApplicationRunner {
     @Autowired
     private RocketMQTemplate template;
 
+    @Autowired
+    private SpringCOntext springCOntext;
+
     @Override
     public void run(ApplicationArguments args) throws Exception {
-        new MyServer().start();
+//        new MyServer().start();
+        System.out.println("server start");
+        TestController bean = springCOntext.getBean(TestController.class);
+        System.out.println(bean.hello());
     }
 
-    @RequestMapping("/hello")
-    public String hello(){
-        return "hello world!";
-    }
+//    @GetMapping("/hello")
+//    public String hello(){
+//        return "hello world!";
+//    }
 }
