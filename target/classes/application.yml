@@ -17,3 +17,8 @@ spring:
         max-idle: 8
         min-idle: 0
     password: 123456
+
+rocketmq:
+  producer:
+    group: ouyangProducer
+  name-server: 123.56.115.93:9876
